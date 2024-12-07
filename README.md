@@ -5,3 +5,5 @@ O cadastro de livros inclui título, descrição, ISBN, preço, autor e categori
 Além disso, o sistema possui um modelo de cliente, com nome, email, telefone e endereço, e um modelo de venda para registrar as transações, incluindo cliente, livro, quantidade e valor total.
 
 Para automatizar tarefas, configurei um job agendado que aumenta o preço dos livros em 10% diariamente. Todos os modelos possuem endpoints para as operações CRUD (Criar, Ler, Atualizar e Excluir), permitindo a gestão completa dos dados da biblioteca.
+
+Contem uma collection do postman para realizar testes.
